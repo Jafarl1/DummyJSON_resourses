@@ -1,0 +1,38 @@
+.layout {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 40px;
+  font-family: "Federo", sans-serif;
+}
+
+.h1 {
+  font-size: 36px;
+}
+
+a {
+  color: darkmagenta;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  padding: 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    grid-template-columns: 1fr;
+  }
+}
